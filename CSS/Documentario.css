@@ -66,3 +66,270 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
+
+/* Hovers */
+
+.secitem:focus-within .imgitem1,
+.secitem:hover .imgitem1 {
+    transform: translateX(-25%);
+}
+
+.imgitem1:focus~.imgitem1,
+.imgitem1:hover~.imgitem1 {
+    transform: translateX(25%);
+}
+
+.secitem .imgitem1:focus,
+.secitem .imgitem1:hover {
+    transform: scale(1.5);
+    z-index: 1;
+    position: relative;
+}
+
+/* img2 hover */
+
+.secitem:focus-within .imgitem2,
+.secitem:hover .imgitem2 {
+    transform: translateX(-25%);
+}
+
+.imgitem2:focus~.imgitem2,
+.imgitem2:hover~.imgitem2 {
+    transform: translateX(25%);
+}
+
+.secitem .imgitem2:focus,
+.secitem .imgitem2:hover {
+    transform: scale(1.5);
+    z-index: 1;
+    position: relative;
+}
+/* img3 hover */
+
+.secitem:focus-within .imgitem3,
+.secitem:hover .imgitem3 {
+    transform: translateX(-25%);
+}
+
+.imgitem3:focus~.imgitem3,
+.imgitem3:hover~.imgitem3 {
+    transform: translateX(25%);
+}
+
+.secitem .imgitem3:focus,
+.secitem .imgitem3:hover {
+    transform: scale(1.5);
+    z-index: 1;
+    position: relative;
+}
+
+/* img4 hover */
+.secitem:focus-within .imgitem4,
+.secitem:hover .imgitem4 {
+    transform: translateX(-25%);
+}
+
+.imgitem4:focus~.imgitem4,
+.imgitem4:hover~.imgitem4 {
+    transform: translateX(25%);
+}
+
+.secitem .imgitem4:focus,
+.secitem .imgitem4:hover {
+    transform: scale(1.5);
+    z-index: 1;
+    position: relative;
+}
+
+
+/*img5hover  */
+
+.secitem:focus-within .imgitem5,
+.secitem:hover .imgitem5 {
+    transform: translateX(-25%);
+}
+
+.imgitem5:focus~.imgitem5,
+.imgitem5:hover~.imgitem5 {
+    transform: translateX(25%);
+}
+
+.secitem .imgitem5:focus,
+.secitem .imgitem5:hover {
+    transform: scale(1.5);
+    z-index: 1;
+    position: relative;
+}
+
+
+/* img6hover */
+.secitem:focus-within .imgitem6,
+.secitem:hover .imgitem6 {
+    transform: translateX(-25%);
+}
+
+.imgitem6:focus~.imgitem6,
+.imgitem6:hover~.imgitem6 {
+    transform: translateX(25%);
+}
+
+.secitem .imgitem6:focus,
+.secitem .imgitem6:hover {
+    transform: scale(1.5);
+    z-index: 1;
+    position: relative;
+}
+
+/* img7hover */
+
+.secitem:focus-within .imgitem7,
+.secitem:hover .imgitem7 {
+    transform: translateX(-25%);
+}
+
+.imgitem7:focus~.imgitem7,
+.imgitem7:hover~.imgitem7 {
+    transform: translateX(25%);
+}
+
+.secitem .imgitem7:focus,
+.secitem .imgitem7:hover {
+    transform: scale(1.5);
+    z-index: 1;
+    position: relative;
+}
+
+/* img8hover */
+
+.secitem:focus-within .imgitem8,
+.secitem:hover .imgitem8 {
+    transform: translateX(-25%);
+}
+
+.imgitem8:focus~.imgitem8,
+.imgitem8:hover~.imgitem8 {
+    transform: translateX(25%);
+}
+
+.secitem .imgitem8:focus,
+.secitem .imgitem8:hover {
+    transform: scale(1.5);
+    z-index: 1;
+    position: relative;
+}
+
+/* imgs */
+
+.imgitem1 {
+    transition: transform 500ms;
+    border-radius: 5px;
+    background-size: cover;
+    background-position-x: center;
+    background-image: url('https://i.ytimg.com/vi/-y_AZEO057Y/maxresdefault.jpg');
+    color: transparent;
+}
+
+/* Hovers */
+
+.imgitem1:hover {
+    transform: scale(1.3);
+    z-index: 1;
+}
+
+.imgitem2:hover {
+    transform: scale(1.3);
+    z-index: 1;
+}
+
+.imgitem3:hover {
+    transform: scale(1.3);
+    z-index: 1;
+}
+
+.imgitem4:hover {
+    transform: scale(1.3);
+    z-index: 1;
+}
+
+.imgitem5:hover {
+    transform: scale(1.3);
+    z-index: 1;
+}
+
+.imgitem6:hover {
+    transform: scale(1.3);
+    z-index: 1;
+}
+
+.imgitem7:hover {
+    transform: scale(1.3);
+    z-index: 1;
+}
+
+.imgitem8:hover {
+    transform: scale(1.3);
+    z-index: 1;
+}
+
+.imgitem2 {
+    transition: transform 500ms;
+    border-radius: 5px;
+    background-size: cover;
+    background-position-x: center;
+    background-image: url('https://t.ctcdn.com.br/4sbaCA0GAPsEUzkU2-VVsHV2x-M=/1400x788/smart/i325119.png');
+    color: transparent;
+}
+
+.imgitem3 {
+    transition: transform 500ms;
+    border-radius: 5px;
+    background-size: cover;
+    background-position-x: center;
+    background-image: url('https://elysia.com.br/wp-content/uploads/2020/02/post_3_2.jpg');
+    color: transparent;
+}
+
+.imgitem4 {
+    transition: transform 500ms;
+    border-radius: 5px;
+    background-size: cover;
+    background-position-x: center;
+    background-image: url('https://cdn.mensagenscomamor.com/content/images/m000553346.jpg?v=1&w=1110&h=624');
+    color: transparent;
+}
+
+.imgitem5 {
+    transition: transform 500ms;
+    border-radius: 5px;
+    background-size: cover;
+    background-position-x: center;
+    background-image: url('https://static-wp-tor15-prd.torcedores.com/wp-content/uploads/2021/10/diego-maradona-serie-hbo-amazon-netflix-poster-trailer-filme-documentario-590x241.jpg');
+    color: transparent;
+}
+
+.imgitem6{
+    transition: transform 500ms;
+    border-radius: 5px;
+    background-size: cover;
+    background-position-x: center;
+    background-image: url('https://interprete.me/wp-content/uploads/2018/09/rotten-netflix-serie-documental-alimentos-capa.jpg');
+    color: transparent;
+}
+
+.imgitem7{
+    transition: transform 500ms;
+    border-radius: 5px;
+    background-size: cover;
+    background-position-x: center;
+    background-image: url('https://tm.ibxk.com.br/ms/images/highlights/000/038/692/37081.jpg?ims=704x264');
+    color: transparent;
+}
+
+.imgitem8{
+    transition: transform 500ms;
+    border-radius: 5px;
+    background-size: cover;
+    background-position-x: center;
+    background-image: url('https://static.wixstatic.com/media/f4bf82_f70c20e2154549708fc76487b3609716~mv2.jpg/v1/fill/w_1000,h_525,al_c,q_90,usm_0.66_1.00_0.01/f4bf82_f70c20e2154549708fc76487b3609716~mv2.jpg');
+    color: transparent;
+}

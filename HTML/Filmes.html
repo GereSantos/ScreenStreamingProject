@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/Filmes.css">
-    
+
     <title>Document</title>
 </head>
+
 <body>
     <nav class="navbar">
-        <input class="btn"  type="button" value="Filmes">
-        <input class="btn" type="button" value="Séries">
-        <input class="btn" type="button" value="Comentários" style="font-size:16.1px ;">
+        <input class="btn" onclick="goFilmes()" type="button" value="Filmes">
+        <input class="btn" onclick="goSeries()" type="button" value="Séries">
+        <input class="btn" onclick="goDocument()" type="button" value="Documentários" style="font-size:16.1px ;">
     </nav>
 
-    <section class="secitem " >
+    <section class="secitem ">
         <div class="itens imgitem1"> .</div>
         <div class="itens imgitem2"> .</div>
         <div class="itens imgitem3"> .</div>
@@ -26,5 +28,6 @@
         <div class="itens imgitem8"> .</div>
     </section>
 </body>
+
 </html>
-<script type="module" src="../JS/Navigator.js"></script>
+<script src="../JS/Navigator.js"></script>
